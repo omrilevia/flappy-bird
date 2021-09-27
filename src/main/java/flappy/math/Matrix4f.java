@@ -91,5 +91,9 @@ public class Matrix4f {
 	public FloatBuffer toFloatBuffer() {
 		return BufferUtils.createFloatBuffer(elements);
 	}
+	
+	public float[] getElements() {
+		return this.elements;
+	}
 
 }
